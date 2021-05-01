@@ -1,0 +1,21 @@
+.projectBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  margin: 20px;
+}
+
+.projectBox button:hover {
+  background-color: #7562e0;
+  color: #ffffff;
+}
+
+.projectBox button {
+  background-color: #e5e5e5;
+  color: #110844;
+  font-size: 21px;
+  width: 276px;
+  height: 312px;
+  border: none;
+}

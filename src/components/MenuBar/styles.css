@@ -1,0 +1,19 @@
+.menubar {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  background-color: "#E5E5E5";
+  padding: 2rem 2rem 0rem 2rem;
+}
+
+.menubar a {
+  color: "#110844";
+  text-decoration: none;
+  width: 90px;
+  height: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.menubar a:hover {
+  color: #44388a;
+}

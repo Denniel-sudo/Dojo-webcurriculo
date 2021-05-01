@@ -1,0 +1,25 @@
+.home {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 7rem;
+}
+
+.home h2 {
+  font-size: 39px;
+  justify-self: center;
+  color: #110844;
+}
+
+.home .experienceProject {
+  display: flex;
+}
+
+.home .experienceProject .experienceAside {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.home .experienceProject .listProjects {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,35 @@
+.centralbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.centralbox div:first-child {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 60px;
+}
+.centralbox p {
+  padding-top: 40px;
+  font-weight: 100;
+  font-size: 28px;
+}
+.centralbox div:first-child > h1 {
+  font-weight: 900;
+  font-size: 73px;
+}
+.hiremebutton {
+  padding: 70px;
+}
+
+.centralbox button {
+  color: #ffffff;
+  width: 160px;
+  height: 60px;
+  border: none;
+  background-color: #7562e0;
+}
+
+.centralbox button:hover {
+  color: white;
+  background-color: #44388a;
+}
